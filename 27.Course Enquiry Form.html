@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Enquiry</title>
+</head>
+<body>
+	<form>
+		<center><h4><b><u><i>Course Enquiry</i></u></b></h4></center>
+		<fieldset>
+			<legend>Use Name</legend>
+			<input type="text" name="fName" placeholder="First Name">
+			<input type="text" name="mName" placeholder="Middle Name">
+			<input type="text" name="lName" placeholder="Last Name">
+		</fieldset>
+		<fieldset>
+			<legend>Gender</legend>
+			Male<input type="radio" name="Gender" value="Male">
+			Female<input type="radio" name="Gender" value="Female">
+			Other<input type="radio" name="Gender" value="other">
+		</fieldset>
+		<fieldset>
+			<legend>Qualification</legend>
+			B-Tech<input type="checkbox" name="chk" value="B-Tech">
+			M-Tech<input type="checkbox" name="chk" value="M-Tech">
+			MCA<input type="checkbox" name="chk" value="MCA">
+			Other<input type="checkbox" name="chk" value="Other">
+		</fieldset>
+		<fieldset>
+			<legend>Course Selection</legend>
+			<select name="Courses">
+				<option value="html">HTML</option>
+				<option value="py">PYTHON</option>
+				<option value="an">ANDROID</option>
+				<option value="ds" selected="Data Science">Data Science</option><br>
+		</fieldset>
+			<h3>comments</h3>
+			<textarea rows="10" cols="150"></textarea><br>
+			<br>
+			<br>
+			<input type="reset" name="reset" value="RESET">
+			<input type="submit" name="sub" value="SUBMIT">	
+	</form>
+
+</body>
+</html>
